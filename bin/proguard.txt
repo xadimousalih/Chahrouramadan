@@ -1,0 +1,21 @@
+# view res/layout/fragment_layout.xml #generated:2
+-keep class com.tab28.nafila.koor.DashboardLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.tab28.nafila.koor.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.tab28.nafila.koor.NafiladujourActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.tab28.nafila.koor.RamadanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.tab28.nafila.koor.SpalshScreenActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.tab28.nafila.koor.UserSettingActivity { <init>(...); }
+
+# view res/xml/settings.xml #generated:11
+-keep class org.bostonandroid.datepreference.DatePreference { <init>(...); }
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_user_profile" >
+<!--         <EditTextPreference -->
+<!--             android:defaultValue="01/07/2014" -->
+<!--             android:key="prefUsername" -->
+<!--             android:summary="@string/pref_user_name_summary" -->
+<!--             android:title="@string/pref_user_name" /> -->
+
+        <org.bostonandroid.datepreference.DatePreference
+            android:defaultValue="2014.07.01"
+            android:key="prefUsername"
+             android:summary="@string/pref_user_name_summary"
+            android:title="@string/pref_user_name" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

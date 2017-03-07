@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="chg">Le chargement du fichier prendra quelques petites secondes! Merci de bien vouloir patienter?</string>
+    <string name="pref_user_name">Mettre la date d\'apparition du croissant lunaire</string>
+    <string name="pref_user_name_summary">Date d\'apparition du croissant lunaire</string>
+    <string name="pref_user_profile">Paramètrage</string>
+    <string name="app_name">Chahrou Ramadan</string>
+    <string name="action_settings">Paramètrage</string>
+    <string name="accueil">Cheikh Ahmadou Bamba KHADIMOU RASSOUL</string>
+    <string name="nawaafile">Nawaafile</string>
+    <string name="lecture">Lecture sur le ramadan</string>
+    <string name="txtlien">www.tab28.com</string>
+    <string name="list_titre">Le mois de Ramadan</string>
+    <string name="app_about">A Propos</string>
+    <string name="str_exit">Fermer</string>
+    <string name="str_ok">OK</string>
+    <string name="layla">Laylatoul Qadr</string>
+    <string name="app_exit">Fermer</string>
+    <string name="app_exit_message">Voulez vous fermer cette application?</string>
+    <string name="str_no">Non</string>
+    <string name="n0">Première nuit</string>
+    <string name="n1">Nuit du 1er au 2 (Jour 1)</string>
+    <string name="n2">Nuit du 2e au 3 (Jour 2)</string>
+    <string name="n3">Nuit du 3e au 4 (Jour 3)</string>
+    <string name="n4">Nuit du 4e au 5 (Jour 4)</string>
+    <string name="n5">Nuit du 5e au 6 (Jour 5)</string>
+    <string name="n6">Nuit du 6e au 7 (Jour 6)</string>
+    <string name="n7">Nuit du 7e au 8 (Jour 7)</string>
+    <string name="n8">Nuit du 8e au 9 (Jour 8)</string>
+    <string name="n9">Nuit du 9e au 10 (Jour 9)</string>
+    <string name="n10">Nuit du 10e au 11 (Jour 10)</string>
+    <string name="n11">Nuit du 11e au 12 (Jour 11)</string>
+    <string name="n12">Nuit du 12e au 13 (Jour 12)</string>
+    <string name="n13">Nuit du 13e au 14 (Jour 13)</string>
+    <string name="n14">Nuit du 14e au 15 (Jour 14)</string>
+    <string name="n15">Nuit du 15e au 16 (Jour 15)</string>
+    <string name="n16">Nuit du 16e au 17 (Jour 16)</string>
+    <string name="n17">Nuit du 17e au 18 (Jour 17)</string>
+    <string name="n18">Nuit du 18e au 19 (Jour 18)</string>
+    <string name="n19">Nuit du 19e au 20 (Jour 19)</string>
+    <string name="n20">Nuit du 20e au 21 (Jour 20)</string>
+    <string name="n21">Nuit du 21e au 22 (Jour 21)</string>
+    <string name="n22">Nuit du 22e au 23 (Jour 22)</string>
+    <string name="n23">Nuit du 23e au 24 (Jour 23)</string>
+    <string name="n24">Nuit du 24e au 25 (Jour 24)</string>
+    <string name="n25">Nuit du 25e au 26 (Jour 25)</string>
+    <string name="n26">Nuit du 26e au 27 (Jour 26)</string>
+    <string name="n27">Nuit du 27e au 28 (Jour 27)</string>
+    <string name="n28">Nuit du 28e au 29 (Jour 28)</string>
+    <string name="n29">Nuit du 29e au 30 (Jour 29)</string>
+
+</resources>

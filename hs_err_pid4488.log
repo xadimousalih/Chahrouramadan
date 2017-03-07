@@ -1,0 +1,83 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=4488, tid=5356
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_26-b03
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.1-b02 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000001cb800):  JavaThread "Unknown thread" [_thread_in_vm, id=5356, stack(0x0000000002770000,0x0000000002870000)]
+
+Stack: [0x0000000002770000,0x0000000002870000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000001cb800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5356, stack(0x0000000002770000,0x0000000002870000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042e000 	C:\Programmes\Java\jdk1.6.0_26\bin\javaw.exe
+0x00000000772b0000 - 0x0000000077459000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000073f30000 - 0x0000000073f7e000 	C:\Program Files\AVAST Software\Avast Business\snxhk64.dll
+0x0000000077190000 - 0x00000000772af000 	C:\Windows\system32\KERNEL32.dll
+0x000007fefd140000 - 0x000007fefd1ab000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefee10000 - 0x000007fefeeeb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefecd0000 - 0x000007fefed6f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefd4c0000 - 0x000007fefd4df000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff490000 - 0x000007feff5bd000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077090000 - 0x000000007718a000 	C:\Windows\system32\USER32.dll
+0x000007fefe7d0000 - 0x000007fefe837000 	C:\Windows\system32\GDI32.dll
+0x000007fefe270000 - 0x000007fefe27e000 	C:\Windows\system32\LPK.dll
+0x000007fefeb00000 - 0x000007fefebc9000 	C:\Windows\system32\USP10.dll
+0x000007fefeca0000 - 0x000007fefecce000 	C:\Windows\system32\IMM32.DLL
+0x000007fefe6c0000 - 0x000007fefe7c9000 	C:\Windows\system32\MSCTF.dll
+0x000007fefd050000 - 0x000007fefd090000 	C:\Windows\system32\nvinitx.dll
+0x000000006d890000 - 0x000000006e048000 	C:\Programmes\Java\jdk1.6.0_26\jre\bin\server\jvm.dll
+0x000007fefabb0000 - 0x000007fefabeb000 	C:\Windows\system32\WINMM.dll
+0x000000006d800000 - 0x000000006d80e000 	C:\Programmes\Java\jdk1.6.0_26\jre\bin\verify.dll
+0x000000006d450000 - 0x000000006d477000 	C:\Programmes\Java\jdk1.6.0_26\jre\bin\java.dll
+0x0000000077470000 - 0x0000000077477000 	C:\Windows\system32\PSAPI.DLL
+0x000000006d850000 - 0x000000006d862000 	C:\Programmes\Java\jdk1.6.0_26\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\android-sdk-windows\platforms\android-19\android.jar 
+java_command: com.tab28.nafila.koor.ttt
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_51
+PATH=C:/Program Files/Java/jdk1.7.0_51/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_51/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_51/bin/../jre/lib/amd64;.;C:\Program Files\Java\jdk1.7.0_51\bin;C:\glassfish4\glassfish\bin;C:\Program Files (x86)\PC Connectivity Solution\;C:\Oracle11g\product\11.2.0\dbhome_1\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;D:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\apache-maven-3.1.1\bin;C:\android-sdk-windows\apache-ant\bin;C:\apache-tomcat-6.0.33\bin;C:\wamp\bin\mysql\mysql5.5.8\bin;C:\Users\awaconsulting\AppData\Local\Linkury\Application\;C:\Program Files (x86)\Common Files\Teleca Shared;C:\android-sdk-windows\platform-tools;C:\android-sdk-windows\tools;C:\Program Files\TortoiseSVN\bin;C:\dex2jar-0.0.9.15;C:\dex2jar-0.0.9.15;C:\Program Files (x86)\Git\cmd;C:\Ruby193\bin;D:\j2ee\jdk1.6.0_16\bin;C:\eclipse_helios_gwt;
+USERNAME=awaconsulting
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 4097088k(864012k free), swap 8192312k(3594948k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.1-b02) for windows-amd64 JRE (1.6.0_26-b03), built on May  4 2011 07:15:24 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Sat Jun 21 22:53:33 2014
+elapsed time: 0 seconds
+

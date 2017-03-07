@@ -1,0 +1,42 @@
+<!-- Your package folder -->
+<com.tab28.nafila.koor.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/btn_nafila"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_tawhid"
+        android:text="@string/nawaafile"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_lecture"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/lecture"
+        android:text="@string/lecture"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+<!--     FacebookLikePlugin extends LinearLayout -->
+
+<!--     <com.shamanland.facebook.likebutton.FacebookLikePlugin -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <com.shamanland.facebook.likebutton.FacebookLikeButton -->
+<!--             style="@style/Widget.FacebookLikeButton" -->
+<!--             app:pagePicture="@drawable/ic_launcher" -->
+<!--             app:pageText="This is blog about Android development." -->
+<!--             app:pageTitle="Developer&apos;s notes" -->
+<!--             app:pageUrl="http://blog.shamanland.com/" /> -->
+
+<!--         <com.shamanland.facebook.likebutton.FacebookLikeBox -->
+<!--             style="@style/Widget.FacebookLikeBox" -->
+<!--             app:calloutMarker="left" /> -->
+<!--     </com.shamanland.facebook.likebutton.FacebookLikePlugin> -->
+
+</com.tab28.nafila.koor.DashboardLayout>
